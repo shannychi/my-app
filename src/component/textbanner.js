@@ -1,10 +1,18 @@
 import React from "react";
 
-const textbanner = () => {
-
+const textbanner = props => {
+  const{
+  title,
+  text
+  } = props
 
     return(
- <div></div>
+
+ <div>
+    <h1>{title}</h1>
+    <p>{text}</p>
+ </div>
+
     )
 }
 

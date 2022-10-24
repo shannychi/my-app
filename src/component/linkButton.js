@@ -1,7 +1,7 @@
 import React from "react";
-import{Button} from `reactstrap`
+import{ Button } from "reactstrap";
 
-const linkButton = props => {
+const LinkButton = props => {
   const{
 name,
 title,
@@ -12,9 +12,9 @@ link
    
         <div>
             <h3>{title}</h3>
-            <Button color="danger" outline>{link}</Button>
+            <Button color="Danger" outline href={link}>{name}</Button>
         </div>
     )
 }
 
-export default linkButton
+export default LinkButton
