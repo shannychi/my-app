@@ -1,22 +1,44 @@
-import react from `react`
+import React from "react"
+import LinkButton from "./component/linkButton";
+import Textbanner from "./component/Textbanner";
+import Profile from "./component/Profile"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Textbanner
+      title ="@ShanelChii"
+
+      />
+
+      <LinkButton 
+      name="Zuri Trainig"
+       link="https://training.zuri.team/"
+       />
+
+      <LinkButton
+      title="Zuri Books"
+      text="This where you will find books about design and coding."
+      name=" Zuri Books"
+      link="http://books.zuri.team "
+       
+      />
+
+       <LinkButton
+       name="python For Beginner"
+       link="https://books.zuri.team"
+       />
+
+       <LinkButton
+       name="The Zuri Coders"
+       link="https://background.zuri.team"
+       text
+       />
+
+       <LinkButton
+       name="Zuri Free Design Book"
+       link="https://books.zuri.team/design-rules"
+       />
     </div>
   );
 }
