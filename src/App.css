@@ -1,0 +1,13 @@
+body{
+    background-image: linear-gradient(
+        to bottom, rgb(87, 241, 241), rgba(219, 222, 223, 0.938)
+    );
+}
+
+html {
+    min-height: 100%;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+}
