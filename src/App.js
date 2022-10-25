@@ -1,7 +1,7 @@
 import React from "react"
 import LinkButton from "./component/linkButton";
-import Textbanner from "./component/Textbanner";
-import Profile from "./component/Profile";
+import Textbanner from "./component/textBanner";
+import Profile from "./component/profile";
 import Picture from "./IMG_0036.JPG";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Slack from "./slack";
