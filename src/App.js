@@ -4,6 +4,7 @@ import Textbanner from "./component/Textbanner";
 import Profile from "./component/Profile";
 import Picture from "./IMG_0036.JPG";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Slack from "./slack";
 import "./App.css";
 
 
@@ -17,7 +18,14 @@ function App() {
 
       <Textbanner
       title ="@ShanelChii"
+      id="twitter"
       />
+      
+       <Slack
+        name = "chiSharon"
+        id="slack"
+       />
+
       <div style={{ marginBottom: "50px"}}>
       <LinkButton 
       name="Zuri Trainig"

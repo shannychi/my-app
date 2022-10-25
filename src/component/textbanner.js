@@ -3,7 +3,8 @@ import React from "react";
 const Textbanner = props => {
   const{
   title,
-  text
+  text,
+  id
   } = props
 
   const hStyle =({
@@ -29,7 +30,7 @@ const Textbanner = props => {
 
     return(
 
- <div  style={hStyle.box}>
+ <div  style={hStyle.box} id={id}>
     <h1 style={hStyle.title}>{title}</h1>
     <p style={hStyle.headline}>{text}</p>
  </div>
